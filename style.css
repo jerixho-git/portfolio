@@ -144,3 +144,13 @@ footer {
 .info-list li {
     margin-bottom: 0.6rem;
 }
+
+.hero-icon {
+    margin-bottom: 0.75rem;
+}
+
+.hero-icon img {
+    width: 36px;
+    height: 36px;
+    opacity: 0.85;
+}
