@@ -2,401 +2,186 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jericho Viloria</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        @media (orientation: landscape) {
-            .landscape {
-                max-width: 70vw;
-                /* Adjust width for landscape */
-                min-width: 1024px;
-                /* Minimum width for better readability */
-            }
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jericho Viloria | Full-Stack Software Developer</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-gray-100">
-    <div
-        class="bg-white p-6 rounded-lg shadow-lg max-w-5xl mx-auto mt-8 flex flex-col lg:flex-row lg:space-x-6 landscape">
-        <div class="flex flex-col lg:flex-col lg:items-start lg:justify-start lg:w-1/3 lg:bg-gray-50 lg:p-4 lg:rounded">
-            <div class="flex items-start mb-4">
-                <!-- Profile Picture -->
-                <img src="images/profile.jpg" alt="Profile Image" class="rounded-full w-32 h-32 mr-4" />
+<body>
 
-                <!-- Personal Information -->
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Personal Information</h3>
-                    <p class="text-gray-600">Name: Jericho Viloria</p>
-                    <p class="text-gray-600">Mobile: +(63)935-235-2400</p>
-                    <p class="text-gray-600">Email: viloria2124@gmail.com</p>
-                    <p class="text-gray-600">Location: General Santos City, Philippines</p>
-                </div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Jericho Viloria</h1>
+            <h2>Full-Stack Software Developer / Team Lead</h2>
+            <p>
+                Full-stack software developer with solid professional experience in API development
+                and building web applications using PHP, Laravel, ASP.NET Core, Angular, and
+                SQL-based databases. Experienced in developing RESTful APIs, backend development,
+                frontend integration, and team collaboration.
+            </p>
+
+
+            <div class="hero-actions">
+                <a href="#experience" class="btn primary">View Experience</a>
+                <a href="#contact" class="btn secondary">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <h3>Personal Information</h3>
+        <ul class="info-list">
+            <li><strong>Location:</strong> General Santos City, Philippines</li>
+            <li><strong>Email:</strong> viloria2124@gmail.com</li>
+            <li><strong>Mobile:</strong> +(63) 935 235 2400</li>
+            <li><strong>GitHub:</strong> github.com/jerixho-git</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>Professional Summary</h3>
+        <p>
+            I am a highly adaptable full-stack developer with extensive experience in PHP, Laravel,
+            Vue, ASP.NET Core, C#, Angular, SQL Server, MySQL, SQLite, JavaScript, HTML, and CSS.
+            I started my career in 2014 and have progressed through developer and leadership roles,
+            contributing to complex enterprise and internal systems.
+        </p>
+    </section>
+
+    <section class="section">
+        <h3>Skills & Technologies</h3>
+
+        <div class="skills-grid">
+            <div>
+                <h4>Backend</h4>
+                <ul>
+                    <li>ASP.NET Core</li>
+                    <li>C#</li>
+                    <li>PHP (Laravel)</li>
+                    <li>REST APIs</li>
+                    <li>Hangfire</li>
+                </ul>
             </div>
 
-            <!-- Education Background -->
-			<div class="mb-4">
-				<h3 class="text-xl font-semibold text-gray-800 mb-2">Education Background</h3>
-				<p class="text-gray-600">Central Philippines State University, Hinigaran (June 2010 - April 2014)</p>
-				<p class="text-gray-600">Bachelor of Science in Information Technology (BSIT)</p>
-				<p class="text-gray-600">Achievements:</p>
-				<ul class="list-disc list-inside text-gray-600">
-					<li>Best Programmer of the batch</li>
-					<li>Thesis of the Year: <strong>Tricycle Monitoring System</strong></li>
-				</ul>
-				<br />
-				<p class="text-gray-600">Description: The project was developed for our local municipality to monitor 
-					the registrations of tricycles, including SMS notifications to owners when their registration is 
-					nearing expiration. Officers could also check for violations via SMS inquiry.</p>
-			</div>
-
-            <!-- Skills -->
-
-            <h3 class="text-xl font-semibold text-gray-800 mb-4">Skills & Technologies</h3>
-
-            <div class="w-full">
-                <div class="mb-2">
-                    <span class="text-gray-700">SQL Server</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 90%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">PHP</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 90%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Laravel</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 80%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Vue</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 65%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">C#</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 80%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">ASP.Net Core</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 70%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Angular</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 70%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">MySQL</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 80%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">JavaScript</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 90%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">HTML & CSS</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 85%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Node.js</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 20%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">jQuery</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 90%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Python</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 20%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">SQLite</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 65%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">Bitbucket</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 70%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">GitHub</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 60%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-gray-700">ASP.NET Zero</span>
-                    <div class="relative pt-1">
-                        <div class="flex h-2 mb-2 bg-gray-300 rounded">
-                            <div style="width: 65%" class="bg-blue-600"></div>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <h4>Frontend</h4>
+                <ul>
+                    <li>Angular</li>
+                    <li>Vue</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
+                    <li>jQuery</li>
+                </ul>
             </div>
 
-            <!-- Hobbies Section -->
-            <div class="mb-4">
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Hobbies</h3>
-                <p class="text-gray-600 mb-4">
-                    I enjoy a variety of activities, including:
-                </p>
-                <ul class="list-disc list-inside text-gray-600">
-                    <li>Traveling</li>
-                    <li>Playing musical instruments: drums, guitar, and bass</li>
-                    <li>Playing in a band</li>
-                    <li>Skateboarding</li>
+            <div>
+                <h4>Databases</h4>
+                <ul>
+                    <li>SQL Server</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Tools & Practices</h4>
+                <ul>
+                    <li>GitHub / Bitbucket</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Agile / Scrum</li>
+                    <li>SOLID Principles</li>
+                    <li>Microservices</li>
                 </ul>
             </div>
         </div>
-        <div class="flex-1">
-            <h1 class="text-3xl font-bold mb-6 text-gray-800 text-center">About Me</h1>
+    </section>
 
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-700 mt-6 mb-4">Professional Summary</h2>
-                <p class="text-gray-600 leading-relaxed">
-                    I am a highly adaptable full-stack developer with extensive experience in PHP, Laravel, Vue, ASP.NET
-                    Core, C#, Angular, SQL Server, MySQL, SQLite, JavaScript, CSS, and HTML. My career began in 2014,
-                    and I have progressed through various roles, developing a diverse skill set and contributing to
-                    numerous projects.
-                </p>
-            </section>
+    <section id="experience" class="section">
+        <h3>Work Experience</h3>
 
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-700 mt-10 mb-4">Experience</h2>
+        <div class="experience">
+            <h4>PHP Developer / .NET Developer / Team Lead</h4>
+            <span>CoDev Philippines | Oct 2022 – Present</span>
+            <ul>
+                <li>Maintained and enhanced legacy systems using PHP, jQuery, SQL Server, C# desktop applications, and
+                    ASP.NET Web Forms.</li>
+                <li>Led the development of an LMS trainee information system using Laravel and SQL Server.</li>
+                <li>Developed ASP.NET Core APIs for class status updates and automated email reporting using Hangfire.
+                </li>
+                <li>Led the development of an owner compliance management tool using ASP.NET Core, C#, and Angular.</li>
+            </ul>
+        </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <article class="mb-8 bg-gray-50 p-4 rounded">
-                        <h3 class="text-xl font-semibold text-gray-800">PHP Developer | .NET Developer | Team Lead</h3>
-                        <p class="text-sm text-gray-500">CoDev Philippines | October 2022 - Present</p>
-                        <ul class="space-y-4 mt-4">
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Legacy Software Support:</strong>
-                                <p>
-                                    Learned and supported legacy software using PHP,
-                                    jQuery, SQL Server, C# desktop applications, and ASP.NET Web Forms. Fixed errors,
-                                    leading to the
-                                    hiring of additional developers.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>LMS Trainee Information System:</strong>
-                                <p>
-                                    Developed an LMS using Laravel and SQL Server,
-                                    acting as both developer and team lead.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>API Development:</strong>
-                                <p>
-                                    Created APIs for class status updates and automatic email
-                                    reports using ASP.NET Core API, C#, and Hangfire.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Owner Compliance Management Tool:</strong>
-                                <p>
-                                    Led the development of a compliance management tool using ASP.NET Core, C# API, and
-                                    Angular.
-                                </p>
-                            </li>
-                        </ul>
-                    </article>
+        <div class="experience">
+            <h4>Senior Programmer</h4>
+            <span>Brigada Group of Companies Inc. | Aug 2021 – Nov 2022</span>
+            <ul>
+                <li>Developed POS systems with real-time monitoring and reporting using ASP.NET Core, Angular, SQL
+                    Server, and SignalR.</li>
+                <li>Led the development of a mobile application for event attendance tracking.</li>
+                <li>Trained developers, reviewed pull requests, and managed workflows using Jira, Bitbucket, Jenkins,
+                    and Microsoft Teams.</li>
+            </ul>
+        </div>
 
-                    <article class="mb-8 bg-gray-50 p-4 rounded">
-                        <h3 class="text-xl font-semibold text-gray-800">Senior Programmer | Tech Lead</h3>
-                        <p class="text-sm text-gray-500">Brigada Group of Companies Inc. | August 2021 - November 2022
-                        </p>
+        <div class="experience">
+            <h4>Software Developer</h4>
+            <span>Nutnull IT Solution | Mar 2021 – Aug 2021</span>
+            <ul>
+                <li>Worked on ASP.NET Core-based applications, contributing to backend-related tasks and application
+                    logic.</li>
+                <li>Participated in full-stack development tasks following SOLID principles and Agile methodologies.
+                </li>
+                <li>Used Bitbucket and Jira for version control and task management.</li>
+            </ul>
 
-                        <ul class="space-y-4 mt-4">
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Superclub/Restaurant/Cafe POS Development:</strong>
-                                <p>
-                                    Developed a POS system with real-time monitoring
-                                    and reporting using ASP.NET Core, C#, Angular, SQL Server, and SignalR.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Mobile Application for Event Attendance:</strong>
-                                <p>
-                                    Led the development of a mobile app for event
-                                    attendance using ASP.NET Core, C#, Angular, SQL Server, Flutter, and Excel.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Team Leadership:</strong>
-                                <p>
-                                    Trained developers, reviewed pull requests, and set up
-                                    project management tools (Jira, Bitbucket, Jenkins, Teams).
-                                </p>
-                            </li>
-                        </ul>
-                    </article>
-
-                    <article class="mb-8 bg-gray-50 p-4 rounded">
-                        <h3 class="text-xl font-semibold text-gray-800">Software Developer</h3>
-                        <p class="text-sm text-gray-500">Nutnull IT Solution | March 2021 - August 2021</p>
-                        <br />
-                        <ul class="space-y-4 mt-4">
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Introduction to .NET Core:</strong>
-                                <p>
-                                    Gained my first experience with .NET Core, focusing on backend development using C#
-                                    and web API development through ASP.NET Core.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Skills & Technologies Learned:</strong>
-                                <p>
-                                    Learned new technologies such as ASP.NET Core, C#, Angular, database migration,
-                                    code-first approach, SOLID principles, Agile methodologies, CI/CD pipelines,
-                                    RabbitMQ, and collaboration using version control tools.
-                                </p>
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                <strong>Project Involvement:</strong>
-                                <p>
-                                    Worked on both internal and external projects, improving skills in full-stack
-                                    development,
-                                    including frontend, backend, and database technologies.
-                                </p>
-                            </li>
-                        </ul>
-                    </article>
-
-                    <article class="mb-8 bg-gray-50 p-4 rounded">
-                        <h3 class="text-xl font-semibold text-gray-800">System Specialist</h3>
-                        <p class="text-sm text-gray-500">Brigada Group of Companies Inc. | November 2014 - March 2021
-                        </p>
-                        <ul class="space-y-4 mt-4">
-                            <li class="bg-gray-100 p-4 rounded">
-                                Developed internal software for a radio station, including a news website (native PHP,
-                                later
-                                Laravel) and C#
-                                desktop applications using SQL Server and MySQL.
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                Created an employee information website with bulletin boards, payslip monitoring, time
-                                logs,
-                                and leave/OT/BO
-                                applications using Laravel, Bootstrap, and SQL Server.
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                Contributed to the development of an accounting system using C# desktop applications,
-                                focusing
-                                on account
-                                titles/subtitles and the general journal.
-                            </li>
-                            <li class="bg-gray-100 p-4 rounded">
-                                Developed product landing pages and the company website using native PHP and MySQL.
-                            </li>
-                        </ul>
-                    </article>
-
-                    <article class="mb-8 bg-gray-50 p-4 rounded">
-                        <h3 class="text-xl font-semibold text-gray-800">Part-time Junior Full-Stack Developer</h3>
-                        <p class="text-sm text-gray-500">Infivex IT Solutions Inc. | November 2022 - January 2023</p>
-                        <div class="flex flex-col">
-                            <div class="bg-gray-100 p-4 rounded">
-                                <strong>Key Contributions:</strong>
-                                <p>
-                                    Introduced to microservices architecture using ASP.NET Core, C#, Angular, and SQL
-                                    Server.
-                                </p>
-                                <p>
-                                    Tasked to fix bugs in a task ticketing application, including:
-                                </p>
-                                <ul class="list-disc pl-5">
-                                    <li>Authentication idle time automatic kick or extend the expiration.</li>
-                                    <li>Checked the "remember me" functionality.</li>
-                                    <li>Fixed bugs related to displaying issues.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </section>
         </div>
 
 
-    </div>
-    <br />
+        <div class="experience">
+            <h4>System Specialist</h4>
+            <span>Brigada Group of Companies Inc. | Nov 2014 – Mar 2021</span>
+            <ul>
+                <li>Built internal systems using PHP, Laravel, C#, SQL Server, and MySQL.</li>
+                <li>Developed employee portals, accounting modules, and company websites to support internal operations.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="education" class="section">
+        <h3>Education</h3>
+        <p>
+            <strong>Bachelor of Science in Information Technology</strong><br />
+            Central Philippines State University – Hinigaran
+        </p>
+        <ul>
+            <li>Best Programmer of the Batch</li>
+            <li>Thesis of the Year – Tricycle Monitoring System (SMS-based registration monitoring)</li>
+        </ul>
+    </section>
+
+
+    <section class="section">
+        <h3>Hobbies & Interests</h3>
+        <p>
+            Traveling, playing musical instruments (drums, guitar, bass), playing in a band, and skateboarding.
+        </p>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h3>Contact</h3>
+        <p>Email: viloria2124@gmail.com</p>
+        <p>Mobile: +(63) 935 235 2400</p>
+        <p>Location: General Santos City, Philippines</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Jericho Viloria</p>
+    </footer>
+
 </body>
 
 </html>
