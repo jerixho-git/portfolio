@@ -128,3 +128,19 @@ footer {
     color: #64748b;
     font-size: 0.9rem;
 }
+
+
+.contact a {
+    color: #38bdf8;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid #38bdf8;
+}
+
+.info-list li {
+    margin-bottom: 0.6rem;
+}
